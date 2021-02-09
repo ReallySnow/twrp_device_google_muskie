@@ -34,3 +34,7 @@ BOARD_LISA_TARGET_SCRIPTS := device/google/wahoo/lisa/
 # VTS DTBO Verification. This kernel cmdline parameter should be added by the bootloader
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=3
+
+# Shrp
+SHRP_PATH := device/google/muskie
+SHRP_DEVICE_CODE := walleye

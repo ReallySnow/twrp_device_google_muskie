@@ -20,6 +20,10 @@ DEFAULT_LOW_PERSISTENCE_MODE_BRIGHTNESS := 0x00000056
 include device/google/wahoo/BoardConfig.mk
 -include vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
 
+# Kernel
+# Prebuilt Kernel
+TARGET_PREBUILT_KERNEL := device/google/muskie/prebuilt/Image.gz-dtb
+# Build Kernel
 TARGET_KERNEL_CONFIG := lineageos_muskie_defconfig
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
 
